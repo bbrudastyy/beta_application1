@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace beta_application1
 {
-    public partial class Form1 : Form
+    public partial class Application : Form
     {
-        public Form1()
+        public Application()
         {
             InitializeComponent();
+        }
+
+        public static void test()
+        {
+            MessageBox.Show("jsdhbfjhsdf");
         }
     }
 }
