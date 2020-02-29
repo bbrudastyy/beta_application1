@@ -1,0 +1,11 @@
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\bin\Debug\beta_application1.exe.config
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\bin\Debug\beta_application1.exe
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\bin\Debug\beta_application1.pdb
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.csprojAssemblyReference.cache
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.create_new_day.resources
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.Application.resources
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.Properties.Resources.resources
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.csproj.GenerateResource.cache
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.exe
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.pdb
+C:\Users\Богдан\Desktop\beta_application1\beta_application1\obj\Debug\beta_application1.Select_Exc.resources

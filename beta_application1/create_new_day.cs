@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace beta_application1
 {
-    public partial class Application : Form
+    public partial class create_new_day : Form
     {
-        public Application()
+        public create_new_day()
         {
             InitializeComponent();
-           
         }
 
-        private void btnCreateDay_Click(object sender, EventArgs e)
+        private void btGo_Day_Click(object sender, EventArgs e)
         {
-            Form create_new_day = new create_new_day();
-            create_new_day.Show();
+            Form Select_excersises = new Select_Exc();
+            Select_excersises.Show();
+            this.Close();
         }
     }
 }

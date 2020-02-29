@@ -31,9 +31,9 @@
             this.logo = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnCreateDay = new System.Windows.Forms.Button();
-            this.LBDays = new System.Windows.Forms.ListBox();
             this.btnProfile = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
+            this.CBDays = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -62,17 +62,7 @@
             this.btnCreateDay.TabIndex = 2;
             this.btnCreateDay.Text = "создать новый день";
             this.btnCreateDay.UseVisualStyleBackColor = true;
-            // 
-            // LBDays
-            // 
-            this.LBDays.FormattingEnabled = true;
-            this.LBDays.ItemHeight = 20;
-            this.LBDays.Items.AddRange(new object[] {
-            "выберете дату"});
-            this.LBDays.Location = new System.Drawing.Point(66, 982);
-            this.LBDays.Name = "LBDays";
-            this.LBDays.Size = new System.Drawing.Size(661, 144);
-            this.LBDays.TabIndex = 3;
+            this.btnCreateDay.Click += new System.EventHandler(this.btnCreateDay_Click);
             // 
             // btnProfile
             // 
@@ -94,14 +84,23 @@
             this.btnSettings.Text = "button3";
             this.btnSettings.UseVisualStyleBackColor = true;
             // 
+            // CBDays
+            // 
+            this.CBDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CBDays.FormattingEnabled = true;
+            this.CBDays.Location = new System.Drawing.Point(66, 982);
+            this.CBDays.Name = "CBDays";
+            this.CBDays.Size = new System.Drawing.Size(661, 45);
+            this.CBDays.TabIndex = 6;
+            // 
             // Application
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(769, 1570);
+            this.Controls.Add(this.CBDays);
             this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.btnProfile);
-            this.Controls.Add(this.LBDays);
             this.Controls.Add(this.btnCreateDay);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.logo);
@@ -118,9 +117,9 @@
         private System.Windows.Forms.PictureBox logo;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnCreateDay;
-        private System.Windows.Forms.ListBox LBDays;
         private System.Windows.Forms.Button btnProfile;
         private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.ComboBox CBDays;
     }
 }
 
